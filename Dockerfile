@@ -9,4 +9,4 @@ ENV CHROME_BIN=chromium
 
 RUN npm install tslint typescript -g
 
-CMD ["npm", "start"]
+CMD ["node"]
